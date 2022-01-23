@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('../../static/img/undraw_starry_window.svg').default,
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -44,6 +44,7 @@ function Feature({Svg, title, description}) {
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        <p>Egy közös bekezdés a leírások alatt...</p>
       </div>
     </div>
   );
